@@ -1,8 +1,5 @@
 # dynamic-schedule
 <p>
-	最近项目里需要添加定时任务，定时任务要求可以动态控制，虽然quartz和spring Schedule Task可以实现，但是感觉不够灵活，简单。于是，索性自己实现一个。
-</p>
-<p>
 	本Java 动态定时器基于Java的定时器线程池，阻塞队列实现，定时调度时间采用cron表达式配置的方式，其中cron表达式解析工具类提取自spring。&nbsp;
 </p>
 <p>
