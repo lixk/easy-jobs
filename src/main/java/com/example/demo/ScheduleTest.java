@@ -3,9 +3,6 @@ package com.example.demo;
 import com.example.demo.util.ScheduleUtils;
 import com.example.demo.util.ScheduleUtils.Job;
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-
 /**
  * @author lixk
  * @version [1.0, 2017年8月16日]
@@ -49,17 +46,11 @@ public class ScheduleTest {
         job2.setMethodName("print2");
         job2.setStatus(1);
 
-        Job job3 = new Job();
-        job3.setClassName("com.example.demo.ScheduleTest");
-        job3.setCron("*/3 * * * * *");
-        job3.setJobName("定时器3");
-        job3.setMethodName("print3");
-        job3.setStatus(1);
-
+        //添加定时任务
         ScheduleUtils.add(job1);
         ScheduleUtils.add(job2);
-        ScheduleUtils.add(job3);
         Thread.sleep(10000);
+        //关闭定时任务
         ScheduleUtils.cancel(job1);
     }
 
