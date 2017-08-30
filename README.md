@@ -12,12 +12,11 @@
 	也可以采用界面管理的方式，用法如下图所示：
 </p>
 <p>
-	<img src="http://img.blog.csdn.net/20170830182524425?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzMxNDc4Ng==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt="" />
+	<img src="https://raw.githubusercontent.com/lixk/dynamic-schedule/master/screenshot/%E7%A8%8B%E5%BA%8F%E7%9B%B4%E6%8E%A5%E8%B0%83%E7%94%A8%E6%96%B9%E5%BC%8F.png" alt="" />
 	界面管理的方式:
-	<img src="http://img.blog.csdn.net/20170830182610449?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzMxNDc4Ng==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt="" />
-	<img src="http://img.blog.csdn.net/20170830182624637?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzMxNDc4Ng==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt="" />
-	<img src="http://img.blog.csdn.net/20170830182638022?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzMxNDc4Ng==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt="" /><br />
-	
+	<img src="https://raw.githubusercontent.com/lixk/dynamic-schedule/master/screenshot/web%E7%AE%A1%E7%90%86%E7%95%8C%E9%9D%A2.png" alt="" />
+	<img src="https://raw.githubusercontent.com/lixk/dynamic-schedule/master/screenshot/%E6%B7%BB%E5%8A%A0%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.png" alt="" />
+	<img src="https://raw.githubusercontent.com/lixk/dynamic-schedule/master/screenshot/%E4%BF%AE%E6%94%B9%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.png" alt="" /><br />
 </p>
 
 <p>
