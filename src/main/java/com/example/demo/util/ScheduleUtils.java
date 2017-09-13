@@ -148,10 +148,15 @@ public class ScheduleUtils {
 				public void run() {
 					try {
 						method.invoke(targetObject);
-						// 把当前任务加入队列
-						queue.put(self);
 					} catch (Exception e) {
 						logger.error("定时任务执行异常：", e);
+					} finally{
+						// 把当前任务加入队列
+						try {
+							queue.put(self);
+						} catch (InterruptedException e) {
+							logger.error("添加定时任务到队列异常：", e);
+						}
 					}
 				}
 			}, delay, TimeUnit.MILLISECONDS);
