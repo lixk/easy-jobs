@@ -1,6 +1,6 @@
-# dynamic-schedule
+# easy-jobs
 <p>
-	本Java 动态定时器基于Java的定时器线程池，阻塞队列实现，定时调度时间采用cron表达式配置的方式，其中cron表达式解析工具类提取自spring。&nbsp;
+	本项目用于实现动态可配置的定时任务功能，程序基于Java的定时器线程池，阻塞队列开发，定时调度时间采用cron表达式配置的方式，其中cron表达式解析工具类提取自spring。&nbsp;
 </p>
 <p>
 	用法极其简单，只需要将ScheduleUtils工具类复制到项目里，然后调用ScheduleUtils.add()和ScheduleUtils.cancel()方法即可实现定时任务的添加和关闭。
